@@ -1,0 +1,186 @@
+[INFO ] 2024-09-08 12:05:15.300 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-08 12:05:16.651 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-08 12:07:58.816 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-08 12:07:59.474 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-08 12:07:59.531 [main] BBC20TestCasev1 - logo is visible
+[INFO ] 2024-09-08 12:33:54.348 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-08 12:33:55.652 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-08 12:34:01.060 [main] BBC20TestCasev1 - clicked on register button
+[INFO ] 2024-09-08 12:46:08.006 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-08 12:46:13.446 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-08 12:46:16.374 [main] BBC20TestCasev1 - clicked on register button
+[INFO ] 2024-09-08 22:54:25.278 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-08 22:54:25.386 [main] BBC20TestCasev1 - searchIcon is visible
+[INFO ] 2024-09-08 22:54:25.528 [main] BBC20TestCasev1 - searchIcon is clciked
+[INFO ] 2024-09-08 23:38:20.462 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-08 23:38:20.649 [main] BBC20TestCasev1 - searchIcon is visible
+[INFO ] 2024-09-09 00:03:31.949 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-09 00:03:48.262 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-09 00:03:53.481 [main] BBC20TestCasev1 - sidemenu is visible
+[INFO ] 2024-09-09 00:05:40.147 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-09 00:05:40.326 [main] BBC20TestCasev1 - sidemenu is visible
+[INFO ] 2024-09-09 22:03:44.206 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 00:46:36.940 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 00:46:37.032 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:01:19.600 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:01:19.723 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:02:57.036 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:02:57.117 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:08:11.873 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:08:12.525 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-10 01:08:12.605 [main] BBC20TestCasev1 - logo is visible
+[INFO ] 2024-09-10 01:08:16.827 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:08:17.572 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-10 01:08:18.126 [main] BBC20TestCasev1 - logo is visible
+[INFO ] 2024-09-10 01:08:20.380 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:08:22.001 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:08:34.923 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-10 01:08:36.076 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-10 01:08:41.905 [main] BBC20TestCasev1 - clicked on register button
+[INFO ] 2024-09-10 01:08:44.116 [main] BBC20TestCasev1 - clicked on register button
+[INFO ] 2024-09-10 01:09:06.641 [main] BBC20TestCasev1 - searchIcon is visible
+[INFO ] 2024-09-10 01:09:06.780 [main] BBC20TestCasev1 - searchIcon is clciked
+[INFO ] 2024-09-10 01:09:14.496 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-10 01:09:16.724 [main] BBC20TestCasev1 - clicked on sign in  button
+[INFO ] 2024-09-10 01:10:30.332 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:10:34.810 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:11:25.653 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:11:25.750 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:13:32.483 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:13:32.562 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:14:46.785 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:14:46.911 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:16:37.776 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:16:37.929 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:16:39.234 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:16:39.429 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:22:44.898 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:22:44.952 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:23:59.658 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:23:59.713 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:25:24.650 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:25:24.728 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:25:33.273 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:25:33.336 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:26:31.646 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:26:31.685 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:27:05.583 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:27:05.619 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:32:21.000 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:32:21.040 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:34:05.388 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:34:05.423 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:34:07.194 [main] BBC20TestCasev1 - navigate back
+[INFO ] 2024-09-10 01:45:00.651 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:45:00.695 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:46:52.970 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:46:53.007 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 01:50:07.730 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 01:50:07.762 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 09:15:43.627 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:15:43.701 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 09:17:48.014 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:17:48.051 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 09:18:30.277 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:18:30.328 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 09:18:35.599 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:18:35.677 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 09:19:50.914 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:19:50.952 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 09:19:52.660 [main] BBC20TestCasev1 - link  is clicked
+[INFO ] 2024-09-10 09:20:06.400 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:20:06.433 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 09:20:07.148 [main] BBC20TestCasev1 - link  is clicked
+[INFO ] 2024-09-10 09:24:23.724 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:24:23.775 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 09:24:25.589 [main] BBC20TestCasev1 - link  is clicked
+[INFO ] 2024-09-10 09:26:40.164 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:26:40.204 [main] BBC20TestCasev1 - nav is visible
+[INFO ] 2024-09-10 09:26:41.599 [main] BBC20TestCasev1 - link  is clicked
+[INFO ] 2024-09-10 09:31:38.133 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:31:38.310 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 09:31:40.270 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 09:31:40.321 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 09:33:10.095 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:33:15.887 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 09:33:17.183 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 09:33:17.302 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 09:42:27.059 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:42:28.697 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-10 09:42:28.811 [main] BBC20TestCasev1 - logo is visible
+[INFO ] 2024-09-10 09:42:33.949 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 09:43:07.391 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 09:43:30.331 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 09:43:44.747 [main] BBC20TestCasev1 - Link News is clicked
+[INFO ] 2024-09-10 09:43:53.306 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 09:44:10.400 [main] BBC20TestCasev1 - Link Sport is clicked
+[INFO ] 2024-09-10 09:44:18.433 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 09:44:48.381 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:44:48.461 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 09:44:50.099 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 09:44:50.224 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 09:54:07.801 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:54:07.869 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 09:54:08.587 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 09:54:08.631 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 09:56:12.552 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:56:12.621 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 09:56:14.376 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 09:56:14.432 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 09:58:00.557 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 09:58:23.526 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 09:58:24.282 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 09:58:24.326 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 11:09:21.683 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:09:21.770 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:09:39.531 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:09:39.601 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:11:04.621 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:11:04.693 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:11:06.142 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 11:11:06.396 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 11:11:06.438 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:11:06.559 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:11:07.906 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 11:11:08.041 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 11:12:25.460 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:12:25.533 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:12:26.391 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 11:12:26.434 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 11:12:48.579 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:12:55.532 [main] BBC20TestCasev1 - url open
+[INFO ] 2024-09-10 11:12:55.680 [main] BBC20TestCasev1 - logo is visible
+[INFO ] 2024-09-10 11:13:36.887 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:14:06.849 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 11:14:26.596 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 11:14:29.447 [main] BBC20TestCasev1 - Refind nav links
+[INFO ] 2024-09-10 11:14:37.655 [main] BBC20TestCasev1 - Link News is clicked
+[INFO ] 2024-09-10 11:14:44.028 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 11:14:44.818 [main] BBC20TestCasev1 - Refind nav links
+[INFO ] 2024-09-10 11:17:04.182 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:17:04.272 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:17:04.716 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:17:04.898 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:17:05.257 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 11:17:05.962 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 11:17:06.238 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 11:17:06.275 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 11:17:16.307 [main] BBC20TestCasev1 - Refind nav links
+[INFO ] 2024-09-10 11:17:16.352 [main] BBC20TestCasev1 - Refind nav links
+[INFO ] 2024-09-10 11:18:58.328 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:18:58.407 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:18:59.897 [main] BBC20TestCasev1 - Link Home is clicked
+[INFO ] 2024-09-10 11:19:00.027 [main] BBC20TestCasev1 - Navigated back
+[INFO ] 2024-09-10 11:31:22.580 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:31:22.660 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:31:23.663 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:31:24.170 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:32:43.186 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:32:43.259 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 11:36:56.829 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 11:36:56.898 [main] BBC20TestCasev1 - Navbar is visible
+[INFO ] 2024-09-10 20:39:43.950 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 20:39:46.217 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 20:40:13.563 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 20:41:28.240 [main] BBC20TestCasev1 - url opened
+[INFO ] 2024-09-10 20:41:37.948 [main] BBC20TestCasev1 - url opened
