@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-10T21:06:19 BDT" name="Default suite" finished-at="2024-09-10T21:06:32 BDT" duration-ms="12934">
+  <suite started-at="2024-09-10T22:15:15 BDT" name="Default suite" finished-at="2024-09-10T22:15:24 BDT" duration-ms="9806">
     <groups>
     </groups>
-    <test started-at="2024-09-10T21:06:19 BDT" name="Default test" finished-at="2024-09-10T21:06:32 BDT" duration-ms="12934">
+    <test started-at="2024-09-10T22:15:15 BDT" name="Default test" finished-at="2024-09-10T22:15:24 BDT" duration-ms="9806">
       <class name="com.bbc.testcases.BBChomepageTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bbc.testcases.BBChomepageTestCase@7e6f74c]" started-at="2024-09-10T21:06:19 BDT" name="setup" finished-at="2024-09-10T21:06:26 BDT" duration-ms="7561" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bbc.testcases.BBChomepageTestCase@2f4948e4]" started-at="2024-09-10T22:15:15 BDT" name="setup" finished-at="2024-09-10T22:15:22 BDT" duration-ms="7649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySignInButton()[pri:0, instance:com.bbc.testcases.BBChomepageTestCase@7e6f74c]" started-at="2024-09-10T21:06:26 BDT" name="verifySignInButton" finished-at="2024-09-10T21:06:32 BDT" duration-ms="5133" status="PASS">
+        <test-method signature="verifySearchField()[pri:0, instance:com.bbc.testcases.BBChomepageTestCase@2f4948e4]" started-at="2024-09-10T22:15:22 BDT" name="verifySearchField" finished-at="2024-09-10T22:15:24 BDT" duration-ms="1828" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignInButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bbc.testcases.BBChomepageTestCase@7e6f74c]" started-at="2024-09-10T21:06:32 BDT" name="tearDown" finished-at="2024-09-10T21:06:32 BDT" duration-ms="196" status="PASS">
+        </test-method> <!-- verifySearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bbc.testcases.BBChomepageTestCase@2f4948e4]" started-at="2024-09-10T22:15:24 BDT" name="tearDown" finished-at="2024-09-10T22:15:24 BDT" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

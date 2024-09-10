@@ -58,6 +58,10 @@ public class BbcHomePage {
 
 		return searchIcon.isDisplayed();
 	}
+	
+	public void clickonSearchIcon() {
+		searchIcon.click();
+	}
 
 // search input field
 	@FindBy(xpath = "//input[@placeholder='Search news, topics and more']")
@@ -80,9 +84,7 @@ public class BbcHomePage {
 		searchbtn.click();
 	}
 
-	public void clickonSearchIcon() {
-		searchIcon.click();
-	}
+	
 	
 	//sidebaricon
 	@FindBy(xpath="//button[@aria-label='Open menu']")
