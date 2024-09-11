@@ -86,12 +86,19 @@ public class BbcHomePage {
 
 	
 	
-	//sidebaricon
+	//hamburgericon
 	@FindBy(xpath="//button[@aria-label='Open menu']")
-	WebElement sideBarmenuIcon;
+	WebElement HamburgerIcon;
 	
-	public void clickonSideBarIcon() {
-		sideBarmenuIcon.click();
+	public void clickonHambugerIcon() {
+		HamburgerIcon.click();
+	}
+	
+	@FindBy(xpath="//button[@aria-label='Close menu']")
+	WebElement closeIcon;
+	
+	public void clickonCloseIcon() {
+		closeIcon.click();
 	}
 	
 	//sidebar

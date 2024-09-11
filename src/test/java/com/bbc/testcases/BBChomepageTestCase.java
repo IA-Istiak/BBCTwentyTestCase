@@ -75,6 +75,22 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(acturalTitle, expectedTitle);
 		}
 	}
+	
+	@Test
+
+	public void verifyHamburgerIcon() {
+		BbcHomePage bhp = new BbcHomePage(driver);
+
+		if (bhp.isSearchIconVisible()) {
+			bhp.clickonSearchIcon();
+
+			boolean sidemenuTrue = bhp.isSideBarVisible();
+
+			Assert.assertTrue(sidemenuTrue);
+			bhp.clickonCloseIcon();
+
+		}
+	}
 
 	// preconditon method
 	public void clickonSearchinconMethod() {
@@ -82,7 +98,6 @@ public class BBChomepageTestCase extends BaseClass {
 
 		if (bhp.isSearchIconVisible()) {
 			bhp.clickonSearchIcon();
-
 		}
 	}
 
