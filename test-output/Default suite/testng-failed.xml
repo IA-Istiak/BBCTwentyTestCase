@@ -5,10 +5,8 @@
     <classes>
       <class name="com.bbc.testcases.BBChomepageTestCase">
         <methods>
-          <include name="verifySignInButton"/>
-          <include name="verifySearchField"/>
+          <include name="verifyLanguageDropdown"/>
           <include name="tearDown"/>
-          <include name="verifySearchIcon"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.bbc.testcases.BBChomepageTestCase -->
