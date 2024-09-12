@@ -250,6 +250,15 @@ public class BbcHomePage {
         advertiseWithUs.click();
 	}
 	
+	@FindBy(xpath = "//a[normalize-space()='Contact technical support']")
+	WebElement contactTechnicalSupport;
+	public void clickoncontactTechnicalSupport() {
+		// Use JavaScriptExecutor to scroll to the element
+        JavascriptExecutor js = (JavascriptExecutor) ldriver;
+        js.executeScript("arguments[0].scrollIntoView(true);", contactTechnicalSupport );
+        contactTechnicalSupport.click();
+	}
+	
 
 
 	

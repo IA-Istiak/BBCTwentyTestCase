@@ -1,0 +1,29 @@
+TC_ID,Module Name,Sub- Function,Pre-condition,Test Case Title,Step Description,Test Data,Expected Result,Actual Result
+TC-001,Home page,Check BBC logo is available,1. Run Test,BBC logo is clickable and taking to home page or not,"1. Run Test
+2.it will goto https://www.bbc.com/
+3. confirm logo is avaible
+4. click on logo",,clickable and taking to home page.,AS expected result
+TC-002,Home page,Check register button is available,, Register button is avaibale and by clicking it will take user to register page or not,"1. Run Test
+2.it will goto https://www.bbc.com/
+3. Click on Register Button
+4. observe is it taking to registration page or not",,Registration button is available and taking to registration page,AS expected result
+TC-003,Home page,Check signin button is available,, Signin button is avaibale and by clicking it will take user to register page or not,"1. Run Test
+2.it will goto https://www.bbc.com/
+3. Click on Signin Button
+4. observe is it taking to signin page or not",,Signin button is available and taking to registration page,AS expected result
+TC-004,Home page,Search Icon in available and clickable,,search icon is available  and clickable after clicking shide menubar with sheach field will appear or not,,,,
+TC-005,Home page,search field,,search field in side menu is working or not,,,,
+TC-006,Home page,Hamburger Icon,,Hamburger icon is available (after clicking menu icon shide menubar with search field will appear),,,,
+TC-007,Home page,highlight section more news,,more news  link is available by clicking it will take user to news page or not,,,,
+TC-008,Home page,Highlight section 1 [US election],,US  election link is available by clicking it will take user to news page or not,,,,
+TC-009,Home page,Highlight section 1 [US election],,US  election  Section link is clickable by clicking it will take user to news page or not,,,,
+TC-010,Home page,Read about our approach to external linking.,,By clicking this link it will take user to Guidance: Links and feeds page or not,,,,
+TC-011,Home page,BBC in other language dropdown,,"By selection option like ""bengali"" it will take to the correct language site or not",,,,
+TC-012,Home page,Terms of Use,,By clicking this link it will take user to Terms page or not,,,,
+TC-013,Home page,About the BBC,,By clicking this link it will take user to About page or not,,,,
+TC-014,Home page,Privacy Policy,,By clicking this link it will take user to Privacy Policy page or not,,,,
+TC-015,Home page,Cookies,,By clicking this link it will take user to Privacy Policy page or not,,,,
+TC-016,Home page,Accessibility Help,,By clicking this link it will take user to Accessibility Help page or not,,,,
+TC-017,Home page,Contact the BBC,,By clicking this link it will take user to Contact the BBC page or not,,,,
+TC-018,Home page,Advertise with us,,By clicking this link it will take user to Advertise with us page or not,,,,
+TC-020,Home page,Contact technical support,,By clicking this link it will take user toContact technical support page or not,,,,

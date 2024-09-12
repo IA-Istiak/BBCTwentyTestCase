@@ -267,6 +267,22 @@ public class BBChomepageTestCase extends BaseClass {
 		}
 
 	}
+	
+	@Test
+	public void verifycontactTechnicalSupport() {
+		BbcHomePage bhp = new BbcHomePage(driver);
+		bhp.clickoncontactTechnicalSupport();
+
+		String actualUrl = driver.getCurrentUrl();
+		String expectedUrl = "https://www.bbc.com/contact-bbc-com-help";
+
+		if (actualUrl.contentEquals(expectedUrl)) {
+
+			Assert.assertEquals(actualUrl, expectedUrl);
+
+		}
+
+	}
 
 
 
