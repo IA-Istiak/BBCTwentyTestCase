@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.bbc.testcases.BBChomepageTestCase"/>
+      <class name="com.bbc.testcases.BBCRegistrationTestCase"/>
+      <class name="com.bbc.testcases.BBCSignInTestCase"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

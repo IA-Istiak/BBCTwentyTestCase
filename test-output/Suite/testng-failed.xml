@@ -5,11 +5,24 @@
     <classes>
       <class name="com.bbc.testcases.BBChomepageTestCase">
         <methods>
-          <include name="verifyUsElection"/>
+          <include name="verifyHamburgerIcon"/>
+          <include name="verifyCookies"/>
+          <include name="verifyadvertiseWithUs"/>
+          <include name="verifycontactTechnicalSupport"/>
           <include name="verifyUsElectionSection"/>
-          <include name="tearDown"/>
+          <include name="verifyLanguageDropdown"/>
           <include name="verifySearchField"/>
           <include name="setup"/>
+          <include name="verifyPrivacyPolicy"/>
+          <include name="tearDown"/>
+          <include name="verifyReadExternalLinking"/>
+          <include name="verifyUsElection"/>
+          <include name="verifycontactTheBbc"/>
+          <include name="verifyMoreNews"/>
+          <include name="verifyaboutBbc"/>
+          <include name="verifyTermsOfUse"/>
+          <include name="verifySearchIcon"/>
+          <include name="verifyaccessibilityHelp"/>
         </methods>
       </class> <!-- com.bbc.testcases.BBChomepageTestCase -->
     </classes>

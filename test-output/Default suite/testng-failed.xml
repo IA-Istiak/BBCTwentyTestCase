@@ -5,7 +5,7 @@
     <classes>
       <class name="com.bbc.testcases.BBChomepageTestCase">
         <methods>
-          <include name="verifyLanguageDropdown"/>
+          <include name="verifyMoreNews"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>

@@ -22,7 +22,7 @@ public class BbcHomePage {
 
 	// identify web element in pom page factory
 
-	@FindBy(xpath = "//div[@class='sc-49542412-2 hrGuyi']//div[@data-testid='anchor-inner-wrapper']")
+	@FindBy(xpath = "(//div[@data-testid='anchor-inner-wrapper'])[1]")
 	WebElement logo;
 
 	// Method to check if the button is displayed
@@ -65,6 +65,7 @@ public class BbcHomePage {
 	public void clickonSearchIcon() {
 		searchIcon.click();
 	}
+	
 
 // search input field
 	@FindBy(xpath = "//input[@placeholder='Search news, topics and more']")
@@ -80,7 +81,7 @@ public class BbcHomePage {
 	}
 
 //searchbuttononsidemenu
-	@FindBy(xpath = "//button[@class='sc-323fdeef-2 sc-323fdeef-3 gjScLO bkxJJx']")
+	@FindBy(xpath = "//button[contains(@data-testid,'search-input-search-button')]")
 	WebElement searchbtn;
 
 	public void clickonSearchbutton() {

@@ -14,46 +14,26 @@ import org.testng.Assert;
 
 public class BBChomepageTestCase extends BaseClass {
 
-	@Test
+	@Test(priority = 1)
 	public void verifyLogo() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		if (bhp.isLogoVisible()) {
 			bhp.clickonLogo();
 			String actualUrl = driver.getCurrentUrl();
+			System.out.println(actualUrl);
 			String expectedUrl = "https://www.bbc.com/";
 
 			Assert.assertEquals(actualUrl, expectedUrl);
 
-		} else {
-			System.out.println("logo is not visible");
-		}
+		} 
+		
+	
 	}
 
-	@Test
-	public void verifyRegisterButton() {
-		BbcHomePage bhp = new BbcHomePage(driver);
-		bhp.clickonRegisterBtn();
+	
 
-		BbcRegisterPage brp = new BbcRegisterPage(driver);
-		String actualHeading = brp.getRegisterHeadingText();
-		String expectedHeading = "Register for a BBC account";
-		Assert.assertEquals(actualHeading, expectedHeading);
-
-	}
-
-	@Test
-	public void verifySignInButton() {
-		BbcHomePage bhp = new BbcHomePage(driver);
-		bhp.clickonSigninButton();
-
-		BbcSignInPage bsp = new BbcSignInPage(driver);
-		String actualHeading = bsp.getSigninHeadingText();
-		String expectedHeading = "Sign into your BBC account";
-		Assert.assertEquals(actualHeading, expectedHeading);
-
-	}
-
-	@Test
+	
+	@Test(priority = 4)
 	public void verifySearchIcon() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 
@@ -62,10 +42,12 @@ public class BBChomepageTestCase extends BaseClass {
 			boolean sidebarPresent = bhp.isSideBarVisible();
 
 			Assert.assertTrue(sidebarPresent, "The element is not visible.");
+			bhp.clickonCloseIcon();
 		}
+		
 	}
 
-	@Test
+	@Test(priority = 5)
 	public void verifySearchField() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		clickonSearchinconMethod();
@@ -80,7 +62,7 @@ public class BBChomepageTestCase extends BaseClass {
 		}
 	}
 
-	@Test
+	@Test(priority = 6)
 
 	public void verifyHamburgerIcon() {
 		BbcHomePage bhp = new BbcHomePage(driver);
@@ -91,12 +73,19 @@ public class BBChomepageTestCase extends BaseClass {
 			boolean sidemenuTrue = bhp.isSideBarVisible();
 
 			Assert.assertTrue(sidemenuTrue);
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			bhp.clickonCloseIcon();
 
 		}
+		
 	}
 
-	@Test
+	@Test(priority = 7)
 	public void verifyMoreNews() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickonMoreNews();
@@ -104,9 +93,10 @@ public class BBChomepageTestCase extends BaseClass {
 		String actualUrl = driver.getCurrentUrl();
 
 		Assert.assertEquals(actualUrl, expectedUrl);
+		
 	}
 
-	@Test
+	@Test(priority = 18)
 	public void verifyUsElection() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickonUsElection();
@@ -114,9 +104,10 @@ public class BBChomepageTestCase extends BaseClass {
 		String actualUrl = driver.getCurrentUrl();
 
 		Assert.assertEquals(actualUrl, expectedUrl);
+		
 	}
 
-	@Test
+	@Test(priority = 19)
 	public void verifyUsElectionSection() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickonUsElectionSection();
@@ -124,9 +115,10 @@ public class BBChomepageTestCase extends BaseClass {
 		String actualUrl = driver.getCurrentUrl();
 
 		Assert.assertEquals(actualUrl, expectedUrl);
+		
 	}
 
-	@Test
+	@Test(priority = 8)
 	public void verifyReadExternalLinking() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickonexternalLinking();
@@ -134,10 +126,11 @@ public class BBChomepageTestCase extends BaseClass {
 		String expectedTitle = "Guidance: Links and feeds";
 
 		Assert.assertEquals(acturalTitle, expectedTitle);
+		
 
 	}
 
-	@Test
+	@Test(priority = 9)
 	public void verifyLanguageDropdown() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 
@@ -153,10 +146,11 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(actualURL, expectedUrl);
 
 		}
+		
 
 	}
 
-	@Test
+	@Test(priority = 10)
 	public void verifyTermsOfUse() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickonTermUse();
@@ -169,10 +163,11 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(actualTitle, expectedTitle);
 
 		}
+		
 
 	}
 
-	@Test
+	@Test(priority = 11)
 	public void verifyaboutBbc() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickonAboutBbc();
@@ -185,10 +180,11 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(actualTitle, expectedTitle);
 
 		}
+	
 
 	}
 
-	@Test
+	@Test(priority = 12)
 	public void verifyPrivacyPolicy() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickonprivacyPolicy();
@@ -201,10 +197,11 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(actualTitle, expectedTitle);
 
 		}
+		
 
 	}
 	
-	@Test
+	@Test(priority = 13)
 	public void verifyCookies() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickoncookies();
@@ -217,10 +214,11 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(actualTitle, expectedTitle);
 
 		}
+		
 
 	}
 	
-	@Test
+	@Test(priority = 14)
 	public void verifyaccessibilityHelp() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickonaccessibilityHelp();
@@ -233,10 +231,11 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(actualTitle, expectedTitle);
 
 		}
+		
 
 	}
 	
-	@Test
+	@Test(priority = 15)
 	public void verifycontactTheBbc() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickoncontactTheBbc();
@@ -249,10 +248,12 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(actualTitle, expectedTitle);
 
 		}
+		
+		
 
 	}
 	
-	@Test
+	@Test(priority = 16)
 	public void verifyadvertiseWithUs() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickonadvertiseWithUs();
@@ -265,10 +266,11 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(actualUrl, expectedUrl);
 
 		}
+		
 
 	}
 	
-	@Test
+	@Test(priority = 17)
 	public void verifycontactTechnicalSupport() {
 		BbcHomePage bhp = new BbcHomePage(driver);
 		bhp.clickoncontactTechnicalSupport();
@@ -281,6 +283,8 @@ public class BBChomepageTestCase extends BaseClass {
 			Assert.assertEquals(actualUrl, expectedUrl);
 
 		}
+		
+		
 
 	}
 
@@ -295,5 +299,8 @@ public class BBChomepageTestCase extends BaseClass {
 			bhp.clickonSearchIcon();
 		}
 	}
-
+	
+	
+	
+	
 }
