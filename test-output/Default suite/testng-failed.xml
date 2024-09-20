@@ -5,9 +5,16 @@
     <classes>
       <class name="com.bbc.testcases.BBChomepageTestCase">
         <methods>
+          <include name="verifyCookies"/>
+          <include name="verifyUsElection"/>
+          <include name="verifycontactTechnicalSupport"/>
+          <include name="verifyUsElectionSection"/>
           <include name="verifyMoreNews"/>
+          <include name="verifyLanguageDropdown"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="verifyaccessibilityHelp"/>
+          <include name="verifyPrivacyPolicy"/>
         </methods>
       </class> <!-- com.bbc.testcases.BBChomepageTestCase -->
     </classes>

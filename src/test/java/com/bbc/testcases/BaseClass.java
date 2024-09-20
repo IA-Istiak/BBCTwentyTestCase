@@ -19,7 +19,7 @@ public class BaseClass {
 
 	ReadConfig readconfig = new ReadConfig();
 	String url = readconfig.getBaseUrl();
-	String browser = readconfig.getBrowser();
+//	String browser = readconfig.getBrowser();
 
 	public static WebDriver driver;
 
@@ -27,10 +27,11 @@ public class BaseClass {
 
 
 	@BeforeClass
-	public void setup() {
+	@Parameters({"browser"})
+	public void setup(String browserName) {
 
 		// launch browser
-		switch (browser.toLowerCase()) {
+		switch (browserName.toLowerCase()) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();

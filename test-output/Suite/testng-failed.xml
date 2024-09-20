@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.bbc.testcases.BBCRegistrationTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyRegisterButton"/>
+        </methods>
+      </class> <!-- com.bbc.testcases.BBCRegistrationTestCase -->
       <class name="com.bbc.testcases.BBChomepageTestCase">
         <methods>
-          <include name="verifyHamburgerIcon"/>
+          <include name="verifyUsElection"/>
           <include name="verifyCookies"/>
-          <include name="verifyadvertiseWithUs"/>
-          <include name="verifycontactTechnicalSupport"/>
           <include name="verifyUsElectionSection"/>
+          <include name="verifycontactTechnicalSupport"/>
           <include name="verifyLanguageDropdown"/>
-          <include name="verifySearchField"/>
+          <include name="verifyMoreNews"/>
+          <include name="tearDown"/>
+          <include name="verifyaccessibilityHelp"/>
           <include name="setup"/>
           <include name="verifyPrivacyPolicy"/>
-          <include name="tearDown"/>
-          <include name="verifyReadExternalLinking"/>
-          <include name="verifyUsElection"/>
-          <include name="verifycontactTheBbc"/>
-          <include name="verifyMoreNews"/>
-          <include name="verifyaboutBbc"/>
-          <include name="verifyTermsOfUse"/>
-          <include name="verifySearchIcon"/>
-          <include name="verifyaccessibilityHelp"/>
         </methods>
       </class> <!-- com.bbc.testcases.BBChomepageTestCase -->
+      <class name="com.bbc.testcases.BBCSignInTestCase">
+        <methods>
+          <include name="verifySignInButton"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.bbc.testcases.BBCSignInTestCase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
